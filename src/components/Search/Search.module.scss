@@ -1,0 +1,21 @@
+.search {
+  display: flex;
+  margin: 0px 56px 0px 56px;
+  input {
+    padding: 14px 16px 14px 12px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #460037;
+    margin-bottom: 16px;
+    &::placeholder {
+      font-size: 15px;
+      line-height: 17px;
+      color: #7d7d7d;
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .search {
+    margin: 0px 8px 0px 8px;
+  }
+}

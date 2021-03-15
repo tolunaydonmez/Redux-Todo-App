@@ -1,0 +1,64 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: 300ms;
+  padding: 10px 0;
+  width: 100%;
+    .title {
+    width: 100%;
+    padding-left: 58px;
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(0, 8, 8);
+    
+    div {
+      display: flex;
+      width: 100%;
+      
+    input{
+      font-size: 18px;
+      color: rgb(0, 8, 8);
+      width: 100%;
+      padding: 0 8px;
+      border: 2px solid #565d66;
+      border-radius: 8px;
+      }
+      button{
+        margin: 0 15px 0 10px;
+      }
+    }
+  }
+  .done {
+    text-decoration: line-through;
+  } 
+  .actions{
+    display: flex;
+    padding-right: 54px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .item{
+      .title {
+        padding-left: 18px;
+        font-size: 14px;
+        div {
+          input {
+            font-size: 14px;
+          }
+          button {
+            margin-right: 5px ;
+           }
+        }
+      }
+    .actions{
+      padding-right: 16px;
+    }
+    button{
+        font-size: 12px;
+        margin-right: 5px;
+        padding: 8px 8px;
+      }
+  }
+}
